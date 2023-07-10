@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pari e Dispari</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Pari e Dispari</h1>
+    <div class="container">
+        <div class="input-group">
+            <div>
+                <label for="sel-input">Scegli:</label>
+                <select name="selection" id="sel-input" class="user-select">
+                    <option value="pari">Pari</option>
+                    <option value="dispari">Dispari</option>
+                </select>
+            </div>
+            <div>
+                <label for="par-dir">Inserisci un numero:</label>
+                <input type="number" name="num" id="par-disp" min="1" max="5">
+            </div>
+        </div>
+        <div class="btn-container">
+            <button type="button" class="btn">Clicca</button>
+        </div>
+        <div id="ris"></div>
+        <div class="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

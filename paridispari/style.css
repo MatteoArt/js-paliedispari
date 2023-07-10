@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(187, 167, 205);
+}
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+.container {
+    margin: 30px auto;
+    width: 450px;
+    min-height: 200px;
+    border-radius: 15px;
+    padding: 18px;
+    background-color: white;
+}
+.input-group {
+    display: flex;
+    justify-content: space-around;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+.btn-container {
+    margin-top: 15px;
+    text-align: center;
+}
+.btn {
+    padding: 5px;
+    cursor: pointer;
+}
+#par-disp {
+    padding: 7px;
+}
+.user-select {
+    padding: 7px;
+}
+.success {
+    color: green;
+    font-weight: 600;
+}
+.fail {
+    color: red;
+    font-weight: 600;
+}
+.output {
+    margin-top: 10px;
+}
